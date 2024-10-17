@@ -119,5 +119,5 @@ async def simulate_workload_endpoint(seconds: int):
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, port=8080)
+    uvicorn.run(app, port=8000)
     
