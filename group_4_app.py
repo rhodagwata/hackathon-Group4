@@ -9,7 +9,7 @@ import time
 import hashlib
 
 # Load the pre-trained model
-svc_model = joblib.load('/home/sagemaker-user/group-4-agents/temp_repo/svc_model.pkl')
+svc_model = joblib.load('svc_model.pkl')
 
 # Pydantic models
 class IrisFeatures(pydantic.BaseModel):
